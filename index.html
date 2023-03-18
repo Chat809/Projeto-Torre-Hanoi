@@ -8,22 +8,29 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hanoi.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body class="body">
-    <header class="header">
-        <img class="marca-dagua" src="ibuteb-bird.svg" alt="">
-            <div class="ul-div">
-                <ul class="ul-header">
-                    <li class="li-header">Regras</li>
-                    <li class="li-header">Objetivo</li>
-                    <li class="li-header">Desempenho</li>
-                </ul>
+    <header>
+            <div class="container-logo">
+              <h1><a href="#">Code'n Flow</a></h1>
             </div>
-                <p class="contato">Contato</p>
-    </header>
+            <div class="container-lista">
+              <nav>
+                <ul>
+                  <li><a href="#">Sobre o Jogo</a></li>
+                  <li><a href="#">Objetivo</a></li>
+                  <li><a href="#">Regras</a></li>
+                  <li><a href="#">Desempenho</a></li>
+                </ul>
+              </nav>
+            </div>
+      </header>
+      
 
-<main>    
+<main class="main">    
     <form>
         <div class="discs">
             <input id="one" type="text" tabindex="-1" readonly>
@@ -87,21 +94,33 @@
     </form>
 </main>
 
-    <footer class="rodape container">
-        <img src="ibuteb-bird.svg" alt="Marca-dagua Code'n Flow" class="marca-dagua">
-        <ul class="rodape__social">
-            <li><a href="#" class="rodape__midia"><img src="facebook.png" alt="Incone facebook"></a></li>
-            <li><a href="#" class="rodape__midia"><img src="twitter.png" alt="Icone twitter"></a></li>
-            <li><a href="#" class="rodape__midia"><img src="instagram.png" alt="Icone Instagram"></a></li>
-        </ul>
-        <nav>
-            <ul class="rodape__navegacao">
-                <li class="rodape__link"><a href="#">Sobre</a></li>
-                <li class="rodape__link"><a href="#">Negócio</a></li>
-                <li class="rodape__link"><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </footer>
+<footer>
+      <div class="container">
+        <div class="lista">
+          <h4>Informações de contato</h4>
+          <p>Avenida Mário Andreazza, Condomínio Magestic Residence 2, Casa 42</p>
+          <p>Telefone: (98) 98803-3360</p>
+          <p>studioscodenflow@gmail.com</p>
+        </div>
+        <div class="lista">
+          <h4>Links úteis</h4>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Termos de serviço</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+          </ul>
+        </div>
+        <div class="lista">
+          <h4>Siga-nos</h4>
+          <ul class="icones-redes-sociais">
+            <li><a href="#"><img src="facebook.png" alt="Incone facebook"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="Icone twitter"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="Icone Instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+  </footer>
+  
       
 </body>
 </html>
