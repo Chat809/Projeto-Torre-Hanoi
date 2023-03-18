@@ -46,10 +46,21 @@ footer {
     color: #333;
     font-size: 18px;
   }
+
+  .midia {
+    display: flex;
+  }
+
+  .icones-redes-sociais {
+    display: block;
+    margin-right: 2rem;
+    width: 42px;
+    height: 42px;
+
+  }
   
   @media (max-width: 767px) {
     footer {
-      padding: 50px 0;
       width: 100%;
       padding-right: 16px;
     }
