@@ -8,12 +8,13 @@
     color: #fff;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-right: 16px;
     padding-left: 16px;
+    overflow-x: hidden;
 }
 
 header h1{
@@ -26,17 +27,71 @@ header h1 a{
     text-decoration: none;
 }
 
+.box-voltar{
+  position: absolute;
+  text-align: right;
+  margin-top: 3vh;
+  margin-left: 1vh;
+}
+
+.voltar{
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.container-logo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .main{
     height: 82vh;
+    width: 100%;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background: gray;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .caixa-texto {
     display: flex;
-    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1{
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.p{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  align-items: center;
+  text-align: center;
+}
+
+footer h1{
+  font-size: 36px;
+  margin: 0;
+}
+
+footer h1 a{
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -53,6 +108,10 @@ header h1 a{
     }
     
     header h1 {
+      font-size: 24px;
+    }
+
+    footer h1 {
       font-size: 24px;
     }
   }  

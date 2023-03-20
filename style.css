@@ -14,8 +14,3 @@
   justify-content: space-between;
   padding-right: 16px;
 }
-
-.header-info{
-  display: flex;
-  justify-content: space-around;
-}
